@@ -2,22 +2,30 @@
 <html lang="en">
   <head>
     <meta charset=utf-8>
-    <title>A simple HTML5 page layout</title>
-      <script src="Cell.js"></script>
+    <title>Life</title>
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="Life.js"></script>
+      <script src="LifeBuilder.js"></script>
     <style>
       body {
-        background: #221111;
+        background: #211;
       }
       canvas {
         padding-left: 0;
         padding-right: 0;
         margin-left: auto;
         margin-right: auto;
+        margin-top: auto;
+        margin-right: auto;
         display: block;
+        border-style:solid;
+        border-width:3px;
+        border-color: #FFFFFF;
+        background: #DDDDDD;
       }
     </style>
   </head>
-  <body onload="live(clown());">
+  <body>
     <canvas id="canvas" width="500" height="500"/>
    </body>  
 </html>
